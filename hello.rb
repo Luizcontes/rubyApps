@@ -7,9 +7,9 @@ name = input.chomp
 puts "Welcome, #{name.capitalize}!"
 
 target = rand(100) + 1
-guessesNumber = 0
+guessesNumber = 1
 
-while guessesNumber < 10
+while guessesNumber <= 10
     puts "Guess a number 0-100"
     guess = gets.to_i
     if guess == target 
@@ -26,7 +26,7 @@ while guessesNumber < 10
     guessesNumber += 1;
 end
 
-if guessesNumber = 10
+if guessesNumber == 11
     puts "You used all your chances!!!"
 end
 

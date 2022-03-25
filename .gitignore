@@ -1,2 +1,4 @@
 .vscode
 Gemfile
+Gemfile.lock
+.ruby-version
